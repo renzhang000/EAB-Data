@@ -1,2 +1,7 @@
 # EAB-Data
 EAB larvae boring vibration signal dataset.
+
+Within the primary directory, three subfolders exist, with two additional subfolders nested under the "Audio" folder—namely, "train" and "test." The "Audio" folder houses our original data post noise reduction and removal.
+
+The "train" and "test" folders within the primary directory house our manually annotated dataset. The "segments" file records the segmentation operation applied to the original data with the aim of ensuring that each audio segment exclusively captures the monotonous vibration signal of a single larvae. The annotation format within this file includes the audio segment name, storage path of the audio file, start time of the audio segment, and end time of the audio segment. Additionally, the "train_list.text" and "test_list.text" files contain information on the number of EAB larvae corresponding to each audio file.
+The "train" and "test" folders within the primary directory house our manually annotated dataset. The "segments" file records the segmentation operation applied to the original data with the aim of ensuring that each audio segment exclusively captures the monotonous vibration signal of a single larvae. The annotation format within this file includes the audio segment name, storage path of the audio file, start time of the audio segment, and end time of the audio segment. Additionally, the "train_list.text" and "test_list.text" files contain information on the number of EAB larvae corresponding to each audio file.
